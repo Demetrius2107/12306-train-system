@@ -9,8 +9,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <groupId>com.hua</groupId>
-  <artifactId>member</artifactId>
+  <artifactId>gateway</artifactId>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
@@ -18,12 +17,15 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-
   <dependencies>
     <dependency>
-      <groupId>com.hua</groupId>
-      <artifactId>common</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-gateway</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>cn.hutool</groupId>
+      <artifactId>hutool-all</artifactId>
     </dependency>
 
     <dependency>
@@ -32,19 +34,6 @@
       <scope>runtime</scope>
       <optional>true</optional>
     </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
 </project>

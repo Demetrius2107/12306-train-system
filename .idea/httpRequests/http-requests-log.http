@@ -1,3 +1,43 @@
+GET http://localhost:8000/member/hello
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-04T124243.404.html
+
+###
+
+GET http://localhost:8000/member/hello
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-04T124232.404.html
+
+###
+
+GET http://localhost:8001/member/hello
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-04T124101.404.html
+
+###
+
+GET http://localhost:8001/member/hello
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-04T124051.404.html
+
+###
+
 GET http://localhost:8001/member/hello
 Accept: application/json
 Connection: Keep-Alive

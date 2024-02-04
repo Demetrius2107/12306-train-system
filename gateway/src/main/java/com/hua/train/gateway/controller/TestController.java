@@ -1,4 +1,4 @@
-package com.hua.train.member.controller;
+package com.hua.train.gateway.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
   @GetMapping("/hello")
-  public String hello(){return "Hello World1~~~~~";}
+  public String hello(){return "Hello World1~~~~~qqqqq";}
 }
