@@ -4,6 +4,46 @@ Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
+<> 2024-02-04T192349.404.html
+
+###
+
+GET http://localhost:8000/member/member/count
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-04T170505.404.html
+
+###
+
+GET http://localhost:8000/member/member/count
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-04T170222.404.html
+
+###
+
+GET http://localhost:8000/member/member/count
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-04T170055.404.html
+
+###
+
+GET http://localhost:8000/member/member/count
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
 <> 2024-02-04T165054.404.html
 
 ###
