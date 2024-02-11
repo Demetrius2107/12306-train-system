@@ -1,6 +1,8 @@
 package com.hua.train.member.service;
 
 import cn.hutool.core.collection.CollUtil;
+import com.hua.train.common.exception.BusinessException;
+import com.hua.train.common.exception.BusinessExceptionEnum;
 import com.hua.train.member.domain.Member;
 import com.hua.train.member.domain.MemberExample;
 import com.hua.train.member.mapper.MemberMapper;
@@ -27,7 +29,7 @@ public class MemberService {
 
     if(CollUtil.isNotEmpty(list)){
       //return list.get(0).getId();
-    throw new RuntimeException("手机号已注册");
+    throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
     }
 
     Member member = new Member();
