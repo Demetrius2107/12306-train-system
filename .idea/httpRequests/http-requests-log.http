@@ -1,3 +1,13 @@
+GET http://localhost:8000/member/member/count
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-02-05T095715.404.html
+
+###
+
 POST http://localhost:8000/member/member/register
 Content-Type: application/x-www-form-urlencoded
 Content-Length: 11
