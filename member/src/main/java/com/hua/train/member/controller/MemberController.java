@@ -3,6 +3,7 @@ package com.hua.train.member.controller;
 import com.hua.train.common.resp.CommonResp;
 import com.hua.train.member.service.MemberService;
 import com.hua.train.req.MemberRegisterReq;
+import com.hua.train.req.MemberSendCodeReq;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -32,6 +33,13 @@ public class MemberController {
     commonResp.setContent(register);*/
     /*  return commonResp;*/
     return new CommonResp<>(register);
+  }
+
+
+  @PostMapping("/send-code")
+  public CommonResp<Long> sendCode(@Valid MemberSendCodeReq req){
+    memberService.sendCode(req);
+    return new CommonResp<>();
   }
 
 
