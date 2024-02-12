@@ -1,7 +1,9 @@
 package com.hua.train.member.controller;
 
 import com.hua.train.common.resp.CommonResp;
+import com.hua.train.member.resp.MemberLoginResp;
 import com.hua.train.member.service.MemberService;
+import com.hua.train.req.MemberLoginReq;
 import com.hua.train.req.MemberRegisterReq;
 import com.hua.train.req.MemberSendCodeReq;
 import jakarta.annotation.Resource;
@@ -42,5 +44,10 @@ public class MemberController {
     return new CommonResp<>();
   }
 
+  @PostMapping("/login")
+  public CommonResp<MemberLoginResp> login (@Valid MemberLoginReq req){
+    MemberLoginResp resp = memberService.login(req);
+    return new CommonResp<>(resp);
+  }
 
 }
